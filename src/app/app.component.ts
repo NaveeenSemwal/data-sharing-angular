@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   serverElements = [];
 
+  // Demo of Input and Output directive
+
   onServerAdded(srvData: { name: string, content: string }) {
     this.serverElements.push({
       type: 'server',
